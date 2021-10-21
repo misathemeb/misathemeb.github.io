@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Properties</title>
+   
+<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/styles.CSS">
+</head>
+<body>
+    <header>CSS Property Reference</header>
+    <main>
+        <h1>Common CSS Properties</h1>
+        <table>
+            <tbody>
+            
+            <tr>
+                <th scope="col">Property</th>
+                <th scope="col">Default</th>
+                <th scope="col">Values to Adjust</th>
+            </tr>
+            <tr>
+                <td scope="row">Display</td>
+                <td>Block</td>
+                <td>none, inline, inline-block</td>
+            </tr> 
+            <tr>
+                <td scope="row">H&W</td>
+                <td>0, auto</td>
+                <td>px, em, rem, %, auto</td>
+            </tr>     
+            <tr>
+                <td scope="row">Margin & Padding</td>
+                <td>relative</td>
+                <td>top, right, bottom, left</td>
+            </tr>  
+            <tr>
+                <td scope="row">Border</td>
+                <td>width, style, color</td>
+                <td>none, solid, dash, dotted etc</td>
+            </tr>
+            <tr>
+                <td scope="row">Color</td>
+                <td>NA</td>
+                <td>word, hex, rbh, hsla</td>
+            </tr>       
+            <tr>
+                <td scope="row">Font</td>
+                <td>NA</td>
+                <td>weight, line height, size, family, variant</td>
+            </tr>   
+            </tbody>
+        
+        <tfoot>
+            <tr>
+                <td colspan="3">Wasn't that fun?
+
+                </td>
+            </tr>
+        </tfoot>
+    </table>
+    </main>
+</body>
+</html>

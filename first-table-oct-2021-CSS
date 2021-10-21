@@ -1,0 +1,41 @@
+* {
+    font-family: monospace;
+    
+
+}
+header {
+    font-weight: 700;
+    font-size: 2em;
+    text-align: center;
+    
+}
+h1 {
+    font-weight: 400;
+    font-size: 1.5em;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+
+table {
+    table-layout: fixed;
+    width: 100%;
+    border-collapse: collapse;
+    border: 3px dotted silver;
+}
+
+th, td {
+    padding: 20px;
+    text-align: center;
+  }
+
+
+tbody {
+    background: url("https://i.pinimg.com/564x/cb/aa/6f/cbaa6f05997fa632ccb10373f25dbb02.jpg");
+    color: white;
+    text-shadow: 1px 1px 1px black;
+  }
+
+tfoot {
+    text-transform: uppercase;
+}
