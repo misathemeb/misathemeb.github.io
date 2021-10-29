@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Global styles */
+
+* {
+    font-family: Helvetica;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+    text-align: center;
+}
+
+header {
+    height: 69px;
+    width: 100%;
+    z-index: 2;
+    border-bottom: 1px solid seashell;
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+}
+
+.logo {
+    text-align: left;
+    padding-left: 10px;
+    line-height: 50px;
+    
+}
+
+.navigation {
+    display: flex;
+    text-decoration: underline;
+    flex-direction: row;
+    align-items: center;
+    margin: 0;
+    list-style: none;
+    margin-left: 0;
+    margin-right: 0;
+    gap: 3em;
+    
+
+}
+
+.loose-tea-wrap {
+    height: 700px;
+    max-width: 1200px;
+    background: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg");
+    
+   
+}
+
+
+h4 {
+    background-color: black;
+    width: 1200px;
+    padding: 0 0 100px 0;
+}
+h2,
+.mission {
+    opacity: 0;
+    text-align: center;
+    padding: 0 0 250px 0;
+   
+}
+
+
+
+.image-gallery {
+    background-size: 1000px;
+   
+}
+
+.tea {
+    
+    height: 200px;
+    width: 300px;
+    padding-bottom: 10px;
+}
+
+
+
+
+.location-wrap {
+    display: flex;
+    height: 500px;
+    background: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg");
+    
+}
+    
+.location-title {
+    text-align: center;
+
+}
+
+.downtown,
+.east-bayside,
+.oakdale {
+    width: 300px;
+    height: 250px;
+    margin: 30px 40px;
+    background-color: black;
+    opacity: 1;
+    text-align: center;
+}
+
+h3,
+p {
+    justify-content: center;
+    flex-direction: column;
+   
+    
+}
+
+footer,
+h5 {
+    height: 200px;
+}
+
+.copyright {
+    margin-left: 20px;
+    float: left;
+    
+}
+
+@media only screen and (max-width: 1200px)
+{
+
+    body {
+        width: auto;
+
+}
+}
