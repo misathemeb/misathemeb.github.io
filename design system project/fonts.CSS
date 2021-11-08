@@ -1,0 +1,72 @@
+/* font styles */
+
+.fonts {
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 2rem;
+    padding-top: 2rem; 
+    margin: 0 auto;  
+  }
+  
+  .fonts-container {
+    display: grid;
+    justify-content: center;
+    width: 100%;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: #ddd;
+    border: 1px dotted black;
+    margin: 0 auto;
+    border-radius: 12px;
+    padding: 20px 40px;
+    max-width: 1000px;
+  }
+  
+  /* roboto styles */
+  
+  .font-label-roboto {
+    text-transform: uppercase;
+    text-decoration: underline;
+  }
+  
+  .font-label-roboto,
+  .reg-roboto,
+  .bold-roboto,
+  .italic-roboto {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5rem;
+    padding: 1em;  
+  }
+  
+  /* cabin styles */
+  
+  .font-label-cabin {
+    text-transform: uppercase;
+    text-decoration: underline;
+  }
+  
+  .font-label-cabin,
+  .reg-cabin,
+  .bold-cabin,
+  .italic-cabin {
+    font-family: 'Cabin', sans-serif;
+    font-size: 1.5rem;
+    padding: 1em;
+  }
+  
+  /* zen kaku gothic antique styles */
+  
+  .font-label-zen {
+    text-transform: uppercase;
+    text-decoration: underline;
+  }
+  
+  .font-label-zen,
+  .reg-zen,
+  .bold-zen,
+  .italic-zen {
+    font-family: 'Zen Kaku Gothic Antique', sans-serif;
+    font-size: 1.5rem;
+    padding: 1em;
+  }
+  

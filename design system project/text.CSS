@@ -1,0 +1,75 @@
+/* Global styles */
+
+
+
+/* text styles */
+.text-container {
+display: grid;
+justify-content: center;
+width: 100%;
+grid-template-columns: 1fr 1fr 1fr;
+background-color: #ddd;
+border: 1px dotted black;
+margin: 0 auto;
+border-radius: 12px;
+padding: 15rem 5rem;
+}
+
+.text {
+    display: grid;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+    margin: 0 auto;
+    padding: 2rem 1rem;
+
+}
+
+/* cabin text styles */
+h1,
+.font-weight-cabin, 
+.font-size-cabin, 
+.font-family-cabin {
+    font-family: 'Cabin', sans-serif;
+    font-size: 26px;
+    font-weight: 500;
+    padding: 0em 0.5em
+}
+
+/* roboto text styles */
+.subheading,
+.font-weight-roboto, 
+.font-size-roboto, 
+.font-family-roboto {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    padding: 0em 0.5em
+}
+
+/* zen text styles */
+p,
+.font-weight-zen,
+.font-size-zen,
+.font-family-zen {
+    font-family: 'Zen Kaku Gothic Antique', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    padding: 0em 0.5em;
+}
+
+/* footer styles */
+.footer-container {
+    display: grid;
+    padding: 2em 0;
+    border: 1px dotted black;
+    width: 100%;
+    margin: 8rem auto;
+    background-color: #AED9E8;
+}
+.footer {
+    margin-left: 10px;
+    
+    
+  }
+    
+   
