@@ -1,6 +1,6 @@
 👋 Hi, I’m @misathemeb! I am a research scientist by trade and am new to coding. I have no prior knowledge of coding or formal programming up until this moment in time (Autumn 2021). 
 
-👀 I’m interested in becoming a front end developer or data scientist.
+👀 I’m interested in becoming a front end developer.
 
 🌱 I’m currently learning html/css/js/python.
 
