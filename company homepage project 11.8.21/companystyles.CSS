@@ -21,7 +21,7 @@ body {
 /* header styles */
 .header-container  {
     display: flex;
-    background-image: url(./images/austin-neill-SLUeuL-mrRg-unsplash.jpg);
+    background-image: url(images/austin-neill-SLUeuL-mrRg-unsplash.jpg);
     background-size: cover;
     width: 100%;
     color: white;
@@ -65,7 +65,7 @@ ul {
 }
 
 .mission-container {
-    background-image: url(./images/drisigner-ZKeFthqOCCM-unsplash.jpg);
+    background-image: url(images/drisigner-ZKeFthqOCCM-unsplash.jpg);
     width: 40%;
     border-radius: 4px;
     padding: 2rem
@@ -80,7 +80,7 @@ p {
 }
 
 .portfolio-container {
-    background-image: url(./images/austin-neill-hgO1wFPXl3I-unsplash.jpg);
+    background-image: url(images/austin-neill-hgO1wFPXl3I-unsplash.jpg);
     background-repeat: no-repeat;
     width: 40%;
     border-radius: 4px;
