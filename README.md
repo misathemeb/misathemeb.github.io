@@ -8,6 +8,6 @@
 
 📫 How to reach me @misathemeb on @twitter @instagram
 
-I am using Codecademy Pro as my learning platform and would like to share some projects as I am introduced to new concepts. The projects I will be posting are up for code review and feedback.
+I am using Codecademy Pro as my primary learning platform and would like to share some projects as I am introduced to new concepts. The projects I will be posting are up for code review and feedback.
 For now, I will be posting HTML/CSS/JavaScript and Python projects.
 Note: Each language will be specified on a corresponding file title suffix.
