@@ -1,0 +1,109 @@
+/* header styles */
+#header {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    width: 100%;
+    padding: 1em;
+}
+
+.navbar-container,
+.waitlist-container {
+    display: none; 
+}
+
+.navbar-container a,
+.waitlist-container a {
+    font-family: 'Lato', sans-serif;
+    text-decoration: none;
+    color: #555;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+}
+
+.show-menu {
+    display: flex;
+    flex-direction: column;
+    grid-column: span 2;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+    padding: 1.5em;  
+}
+
+.nav-join-btn:hover {
+    cursor: pointer;
+}
+
+.nav-join-btn {
+    background-color: rgb(56, 129, 238);
+    border-radius: 4px;
+    padding: 1em;
+    border: none;
+}
+
+.nav-join-btn a {
+    color: white;
+}
+
+.hamburger {
+    justify-self: flex-end;
+}
+
+.hire-btn {
+    background-image: linear-gradient(to right, #f6d365 0%, #fda085 51%, #ff69b4 100%);
+    border-radius: 28px;
+    border: none;
+    white-space: nowrap;
+    margin-left: 1.5em;
+    padding: 0.5em 1em;
+    font-size: 0.75em;
+    font-weight: 400;
+    color: white;
+}
+
+.navbar-container.show-menu {
+    grid-row: 2 / 3;
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: #333;
+    position: relative;
+}
+
+.waitlist-container.show-menu {
+    grid-row: 3 / 4;
+}
+
+@media only screen and (min-width: 768px) {
+    .hamburger {
+    font-size: 2em;
+    color: black;
+    }
+
+    #header {
+        padding: 1.5em;
+    }
+}
+
+@media only screen and (min-width: 900px) {
+    .hamburger {
+        display: none;
+    }
+
+    .navbar-container,
+    .waitlist-container {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        gap: 1em;
+    }
+    
+    #header {
+        grid-template-columns: 1fr 1fr 1fr;
+        padding: 3em;
+    }
+}

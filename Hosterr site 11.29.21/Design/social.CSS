@@ -1,0 +1,49 @@
+/* social styles & contact */
+ #social {
+     display: flex;
+     margin-bottom: 3em;
+ }
+
+ #social a {  
+    font-family: 'Lato', sans-serif;
+     display: block;
+     padding-left: 1em;
+     text-decoration: none;
+     color: #555;
+ }
+
+ #help-container {
+    gap: 1em;
+    display: flex;
+    align-items: center;
+    padding-bottom: 1em;
+    padding-left: 1em;
+ }
+
+ .questions,
+.talk {
+    text-align: left;
+    padding: 0;
+    margin: 0;    
+ }
+
+ .talk {
+     font-weight: bold;
+ }
+
+ @media only screen and (min-width: 768px) {
+     #contact-container {
+    display: flex;
+    justify-content: space-around;
+    padding: 1em;
+    gap: 15em;
+     }
+ }
+ @media only screen and (min-width: 900px) {
+     #contact-container {
+         display: flex;
+         flex-direction: row;
+         justify-content: space-between;
+         padding: 2em;
+     }
+ }

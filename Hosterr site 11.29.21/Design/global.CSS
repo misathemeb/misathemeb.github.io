@@ -1,0 +1,15 @@
+/* global styles */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+/* body styles */
+body {
+    font-family: 'Lato', sans-serif;
+    font-family: 'Playfair Display', serif;
+    overflow-x: hidden;
+    background-color: rgb(250, 244, 232);
+}

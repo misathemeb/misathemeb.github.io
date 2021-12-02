@@ -1,0 +1,197 @@
+
+main {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* hero styles */
+#hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 3em;
+}
+.hero-wrap {
+    padding: 1em;
+}
+
+.image {
+    display: flex;
+    justify-content: center;
+}
+
+.image img {
+    position: absolute;
+    width: 65%;
+}
+
+.image img:first-child {
+    position: relative;
+}
+
+.image img:nth-child(2) {
+    z-index: -1;
+    transform: rotate(-15deg);
+}
+
+.image img:nth-child(3) {
+    z-index: -2;
+    transform: rotate(-30deg);
+}
+
+.image img:nth-child(4) {
+    z-index: -3;
+    transform: rotate(-45deg);
+}
+
+
+@media only screen and (min-width: 900px) {
+     .hero-wrap {
+        display: flex;
+        flex-direction: row-reverse;     
+    }
+
+    #hero  {
+        width: 100%;
+        flex-direction: column;
+        padding-left: 3em;
+    }
+    
+    .image img {
+        display: flex;
+        width: 412px;
+    }
+}
+
+/* information styles */
+ #information {
+     width: 100%;
+ }
+
+ .headline {
+    font-size: 2.5rem;
+    text-align: left;
+    line-height: 1.5;
+ }
+
+.description {
+    text-align: left;
+    line-height: 1.4;
+    font-family: 'Lato', sans-serif;
+    color: #555;
+}
+
+/* email and waitlist styles */
+ #email-form {
+     width: 100%;
+     padding-top: 1em;
+     padding-bottom: 1em;
+ }
+
+ #email {
+     font-family: "Lato", sans-serif;
+     width: 100%;
+     font-size: 1em;
+     text-align: left;
+     padding: 1em;
+     border: none;
+     border-radius: 4px;
+     margin-bottom: 1em;   
+ }
+
+ .waitlist-btn:hover {
+     cursor: pointer;
+ }
+
+ .waitlist-btn {
+     width: 100%;
+     font-family: "Lato", sans-serif;
+     font-size: 1em;
+     padding: 1.25em;
+     background-color: rgb(56, 129, 238);
+     color: white;
+     font-weight: bold;
+     border: none;
+     border-radius: 4px;
+     margin-bottom: .5em;
+ }
+
+ span {
+     color: #555;
+     font-family: "Lato", sans-serif;
+ }
+
+ @media only screen and (min-width: 768px) {
+     #email-form {
+        padding: 0;
+     }
+
+     #email {
+         width: 40%;
+         background-color: white;
+         padding-right: 2em;
+             padding: 1.25em;
+     }
+
+     .waitlist-btn {
+         width: 25%;
+     }
+
+     .checkmark {
+        padding-top: 0.5em;
+     }
+ }
+
+ @media only screen and (min-width: 768px) {
+    .hero-wrap {
+        padding: 2em;
+    }
+    .image img {
+        width: 412px;
+    }
+    .headline {
+    padding-top: 0.5em;
+    line-height: 1.2;
+    font-size: 3.5em;
+    }
+
+    #information p {
+        padding-top: 1.25em;
+        padding-left: 0;
+        line-height: 1.6;
+        margin-bottom: 1em;
+    }
+}
+
+ @media only screen and (min-width: 900px) {
+    .headline {
+        font-family: 'Playfair Display', serif;
+        font-weight: 700;
+        font-size: 3em;
+        padding-top: 2em;
+        padding-bottom: 0.5em;
+        line-height: 1.2;
+        
+     }
+    
+     #information {
+        padding: 2em;
+     }
+
+     #information p {
+        font-size: 1.15em;
+        padding: 0;
+     }
+
+     #email-form {
+         padding: 0;
+     }
+     #email {
+         width: 65%;
+     }
+     .waitlist-btn {
+         width: 30%;
+         height: 60px;
+         padding: 1em;
+     }
+ }

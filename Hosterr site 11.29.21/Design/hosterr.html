@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Hosterr</title>
+        <meta name="landing-site" content="website-hosting-service">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="./global.CSS">
+        <link rel="stylesheet" href="./header.CSS">
+        <link rel="stylesheet" href="./hero.CSS">
+        <link rel="stylesheet" href="./social.CSS">
+
+
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato&family=Playfair+Display:wght@400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+
+
+    <body>
+        <main>
+  <!-- header -->          
+            <header id="header">
+                <div class="logo-container">
+                    <img src="./Assets/images/Logo.svg" alt="logo">     
+                    <button class="hire-btn">
+                        Hosterr is hiring!
+                    </button>
+                </div>
+
+                
+                <nav class="navbar-container" id="menu1">
+                    
+                        <a href="#plans">Plans</a>
+                        <a href="#find">Find Domain</a>
+                        <a href="#whyus">Why Hosterr</a>
+                    
+                </nav>
+
+                <div class="waitlist-container" id="menu2">
+                    <a href="#signin">Sign in</a>
+                    <button class="nav-join-btn"><a href="#join">Join Waitlist</a></button>
+                </div>
+
+                <a href="javascript:void(0);" class="hamburger" onclick="myFunction()">
+                    <i class="fa fa-bars"></i>
+                </a>
+            </header>
+
+ <!--hero section --> 
+        <section class="hero-wrap">
+            <div id="hero">
+                <div class="image">
+                    <img src="./Assets/images/Hero Image (Model).png" class="model" alt="model face">
+                    <img src="./Assets/images/Pink Shape.svg" alt="pink shape">
+                    <img src="./Assets/images/Purple Shape.svg" alt="purple shape">
+                    <img src="./Assets/images/Blue Shape.svg" alt="blue shape">                   
+                </div>
+
+            </div>
+        
+<!--information section-->
+            <section id="information">
+                <h1 class="headline">Host your website in less than 5 minutes.
+                </h1>
+                <p class="description">With Hosterr, get your website up and running in no less than 5 minutes with the most competitive pricing packages available online.
+                </p>
+            
+
+<!--email form and waitlist btn-->
+            <section id="email-form">
+                <input type="email" id="email"
+            placeholder="Enter email address" size="30" required>
+
+                <button class="waitlist-btn">Join Waitlist
+
+                </button>
+                <div class="checkmark">
+                    <img src="./Assets/images/Checkmark.svg" alt="green checkmark">
+                        
+                    <span>No spam ever. Unsubscribe anytime</span>
+                </div>
+            </section>
+        </section>
+    </section>
+  <!-- social-->
+        <div id="contact-container">
+            <section id="social">
+                <a href="#" target="_blank">Facebook</a>
+                <a href="#" target="_blank">Instagram</a>
+                <a href="#" target="_blank">Twitter</a>
+            </section>          
+
+     
+            <div id="help-container">
+                    <img src="./Assets/images/Help Avatar.svg" alt="help icon">
+                    <div class="help-text">
+                        <p class="questions">Have any questions?</p>
+                        <p class="talk">Talk to a specialist</p>
+                    </div>
+            </div>
+        </div>
+    </main>
+        
+
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+ <!--JavaScript -->       
+        <script>
+            function myFunction() {
+              var x1 = document.getElementById("menu1");
+              var x2 = document.getElementById("menu2");
+              
+              x1.classList.toggle('show-menu');
+              x2.classList.toggle('show-menu');
+
+              return false;
+            }
+            </script>
+    </body>
+</html>
