@@ -19,8 +19,7 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center;
-    min-height: 500px;
-    
+    min-height: 500px;   
 }
 
 .title {
@@ -57,8 +56,6 @@ main {
     .login-container {
         max-width: 460px;
     }
-    
-   
 }
 
 /* desktop */
@@ -88,9 +85,7 @@ main {
            padding-top: 2em;
            padding-bottom: 4em;
            flex: 1;
-      }
-      
-      
+      }    
 }
 
 
