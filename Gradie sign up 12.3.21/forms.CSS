@@ -1,0 +1,58 @@
+/* forms */
+.login-container {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(251, 251, 251);
+    padding-left: 4em;
+    padding-right: 4em;
+}
+
+.login {
+    font-weight: bold;
+    font-size: 2em;
+    padding-bottom: 0.25em;
+    padding-top: 1em;
+}
+
+.btns {
+    padding-top: 0.5em;
+    padding-bottom: 2em; 
+}
+
+.label {
+    display: block;
+    padding-top: 1em;
+    padding-bottom: 1.5em;
+    font-size: 1.25em;
+}
+
+#email,
+#psw {
+    border: 1px ridge rgb(252, 252, 252);
+    border-radius: 4px;
+    padding: 1em;
+    width: 100%;
+}
+
+p {
+    font-size: 1.2em;
+    padding-bottom: 1em;
+    padding-top: 1em;
+    padding-left: 3em;
+}
+p a {
+    color: #16535E;
+    font-weight: bold;
+}
+
+.account-btn {
+    font-size: 1.25em;
+    font-weight: bold;
+    color: white;
+    background-color: #013342;
+    padding: 1em;
+    border: none;
+    border-radius: 4px;
+    margin-bottom: 2em;  
+}
+
