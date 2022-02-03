@@ -48,7 +48,7 @@ Room for improvement:
 
 * Launch featured projects from grid clicks as links OR
 * Create slide out image preview of featured project
-* Consider using Less to refator CSS
+* Consider using Less to refactor CSS
 * Consider using React or Angular
 
 To do:
