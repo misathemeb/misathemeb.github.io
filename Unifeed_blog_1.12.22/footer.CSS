@@ -1,0 +1,10 @@
+/* footer styles */
+
+footer {
+    flex-wrap: wrap;
+    padding: 3em 1em;
+}
+footer p {
+    padding-top: 1.5em;
+    color: gray;
+}

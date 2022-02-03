@@ -1,0 +1,107 @@
+/* main body CSS */
+
+.hero-img {
+   padding: 1em;
+}
+
+.article-title {
+    padding-top: 1em;
+}
+
+.article-text {
+    color: gray;
+    padding-top: 1em;
+    font-weight: 300;
+}
+
+.contributor-container {
+    display: flex;
+    width: 100%;
+    align-items: center;
+
+}
+
+.contributor-container img {
+    width: 50px;
+    padding-top: 1em;
+}
+
+
+.author-name {
+    padding-top: 1em;
+    padding-left: 1em;
+    font-weight: bold;
+    
+}
+
+.author-role {
+    color: gray;
+    padding-left: 1em;
+
+}
+
+@media only screen and (min-width: 768px) {
+    html {
+        padding-left: 3em;
+        padding-right: 3em;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    html {
+        padding: 4em;
+    }
+
+    .flex-hero .hero-img {
+        display: flex;
+        flex-direction: row;
+        gap: 3em; 
+
+    }
+
+    .flex-hero img {
+        width: 40%;
+       
+    }
+
+    .hero-text-container {
+        display: flex;
+        height: auto;
+        flex-direction: row;
+       
+        flex-wrap: wrap;
+        align-self:flex-start;
+        font-size: 1em;
+        line-height: 1.5em;
+    }
+
+    .hero-text-container h1 {
+        line-height: 1.4;
+        padding-top: 0;
+        margin-bottom: 0.75em;
+        font-size: 2.25em;
+    }
+
+    .contributor-container img {
+        width: 50px;
+        padding-top: 2em;
+    }
+    .grid-gallery {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 1em;
+        padding-top: 3em;
+    }
+
+    .article-text {
+        font-size: 1.5em;
+    }
+    footer {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        flex-wrap: nowrap;
+        
+       
+    }
+}
