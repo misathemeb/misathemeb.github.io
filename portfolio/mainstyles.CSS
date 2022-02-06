@@ -34,12 +34,7 @@ nav {
   
 }
     
-    @media (min-width: 1500px) {
-        .nav-item {
-        display: block; 
-        margin: 7vh 0;
-        }
-    }
+  
 
 #greeting, #time {
   font-family: 'Roboto', sans-serif;
