@@ -1,0 +1,192 @@
+
+
+    
+    
+.header  {
+display: grid;
+grid-template-columns: 1fr 773px 1fr;
+width: 100%;
+background-color:#10523A;
+padding: 1em 0 1em 0;
+}
+
+body {
+    font-family: 'Work Sans', sans-serif;
+}
+
+.title {
+    grid-column: 2;
+    color: #EC73D1;
+    font-size: 1.25em;
+    font-weight: 600;
+    margin-bottom: -2.5em
+}
+
+.userName {
+    grid-column: 2;
+    color: #fff;
+    font-size: 52px;
+    font-weight: 600;
+    text-align: left;
+    margin-bottom: .25em
+}
+
+.frame {
+    display: flex;
+    grid-column: 2;
+    color: #56CEA3;
+    text-align: center;
+    margin-bottom: 0.5em;
+    gap: 1em;
+}
+
+.custom-btn {
+    flex: 1;
+    height: 51px;
+    color: #000;
+    font-size: 1em;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 600;
+    background: #56CEA3;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    text-align: center;
+    vertical-align: top;
+    border: none;
+}
+
+.btn-1:hover,
+.btn-2:hover,
+.btn-3:hover {
+    background: #fff;
+    background: linear-gradient(0deg, rgb(216, 216, 221) 0%, rgb(167, 168, 170) 100%);
+}
+
+.gray-wrapper {
+    display: grid;
+    grid-template-columns: 1fr .5fr;
+    max-width: 773px;
+    margin-left: auto;
+    margin-right: auto;
+    gap: 1.5em;
+    background-color: #eee;
+    border-radius: 12px;
+    padding: 1em 2em;
+    align-items: flex-start;
+}
+
+.white-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 1em;
+    padding: 20px;
+    margin: 0;
+    background: #FFFFFF;
+    border-radius: 8px;
+}
+
+.title2 {
+    color: #000;
+    font-weight: 600;
+    justify-content: left;
+    margin: 0;
+    padding: 0;    
+}
+
+
+.artist-wrap {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-weight: 600;
+    list-style: none;
+    padding: 0;
+    margin: 0;  
+}
+
+.artist {
+    display: flex;
+    width: 33.3%;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 0 2em 0;
+    margin: 0;
+}
+
+.artist-title {
+    font-weight: 600;
+    font-size: 18px;
+    text-align: center;
+}    
+
+.artist-icon {
+    border-radius: 50%;
+    width: 110px;
+    height: 110px;
+    padding: 0.5em;
+    text-align: center;   
+}
+
+.add-btn    {
+    background: #56CEA3;
+    border-radius: 70px;
+    border: none;
+    font-size: 12px;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 10px 30px;
+}
+
+.green-container {
+    display: flex;
+    flex-direction: column;
+    padding: 1em;
+    background: #10523A;
+    border-radius: 8px;
+    gap: 1em;
+}
+
+.title3 {
+    color: #56CEA3;
+    font-weight: 600;
+    line-height: 28px;
+    padding: 0;
+    margin: 0;
+}
+
+.playlist-wrap {
+    display: grid;
+    grid-template-columns: auto;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    gap: 1em;
+}
+
+.playlist {
+    padding-bottom: 1em;   
+}
+
+.playlist-title {
+    color: #FFFFFF;
+    font-weight: 600; 
+    padding: 0;
+    margin: 0;
+}
+
+.playlist-description,
+.playlist-stats {
+    color: #EC73D1;
+    font-size: .75em;
+    margin-bottom: 0;
+    display: grid;
+    grid-auto-flow: column;
+    line-height: 1.2;
+    padding: 0.25em 0em;
+}
+
+
