@@ -1,0 +1,35 @@
+[
+    {
+        "id": 1,
+        "author": "sara jones",
+        "job": "ux designer",
+        "img": "https://cdn.pixabay.com/photo/2014/04/02/17/07/user-307993_1280.png",
+        "alt": "Example",
+        "info": "I'm baby gluten-free hella selvage gochujang, ramps tumeric succulents farm-to-table wolf. XOXO leggings meditation 3 wolf moon whatever quinoa. "
+
+    },
+    {
+        "id": 2,
+        "author": "anna johnson",
+        "job": "web designer",
+        "img": "https://cdn.pixabay.com/photo/2014/04/03/10/32/user-310807_1280.png",
+        "info": "I'm doing this locally bc I'm not quite comfortable using AJAX get requests yet to pull text."
+
+    },
+    {
+        "id": 3,
+        "author": "peter jones",
+        "job": "intern",
+        "img": "https://cdn.pixabay.com/photo/2014/04/03/10/44/person-311292_1280.png",
+        "info": "Palo santo glossier hoodie helvetica flexitarian activated charcoal freegan fingerstache bitters."
+    },
+    {
+        "id": 4,
+        "author": "bill anderson",
+        "job": "the boss",
+        "img": "https://cdn.pixabay.com/photo/2013/07/12/14/36/blue-148582_1280.png",
+        "info": "Chillwave green juice beard tousled. Vegan PBR&B synth, salvia gluten-free blue bottle messenger bag readymade cronut lo-fi quinoa."
+
+    }
+]
+
