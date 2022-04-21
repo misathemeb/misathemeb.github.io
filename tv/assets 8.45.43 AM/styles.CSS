@@ -1,0 +1,171 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+  }
+  
+  /* Remove default margin and padding*/
+  * {
+    margin: 0;
+    /* line-height: calc(1em + 0.5rem); testing, proceed with caution, doesn't inherit */
+  }
+  
+  /* Allow percentage-based heights in app*/
+  html, body {
+    height: 100%;
+    font-family: 'Staatliches';
+    /* font-size: calc(1em + 1vw);  */
+    /* takes min font sz, max font minus min font, and multiplied by division of min screen over max screen minus min */
+    font-size: calc(16px + (24-16)) * (100vw - 400px) / (1200 - 400);
+  }
+  
+  @media screen and (min-width: 25em){
+    html { font-size: calc( 16px + (24 - 16) * (100vw - 400px) / (1200 - 400) ); }
+  }
+  
+  /* Safari <8 and IE <11 */
+  @media screen and (min-width: 25em){
+    html { font-size: calc( 16px + (24 - 16) * (100vw - 400px) / (1200 - 400) ); }
+  }
+  @media screen and (min-width: 50em){
+  
+  html { font-size: calc( 16px + (24 - 16) * (100vw - 400px) / (1200 - 400) ); }
+  }
+
+  /* Typography*/
+  body {
+    -webkit-font-smoothing: antialiased;
+  }
+  
+  /* Improve media defaults*/
+  img, picture, video, canvas, svg {
+    display: block;
+    max-width: 100%;
+  }
+  
+  /* Remove built-in form typography styles */
+  input, button, textarea, select {
+    font: inherit;
+  }
+  
+  /* Avoid text overflows*/
+  p, h1, h2, h3, h4, h5, h6 {
+    overflow-wrap: break-word;
+  }
+  
+  /* Create a root stacking context*/
+  #root, #__next {
+    isolation: isolate;
+  }
+
+  .header {
+    display: grid;
+    place-items: center;
+  
+  }
+ 
+body {
+  min-height: 100vh;
+  background-color:black;
+  background-image:
+  radial-gradient(white, rgba(255,255,255,.2) 2px, transparent 80px),
+  radial-gradient(white, rgba(255,255,255,.15) 1px, transparent 50px),
+  radial-gradient(white, rgba(255,255,255,.1) 4px, transparent 40px),
+  radial-gradient(rgba(255,255,255,.4), rgba(255,255,255,.1) 2px, transparent 20px);
+  background-size: 550px 550px, 350px 350px, 250px 250px, 150px 150px;
+  background-position: 0 0, 40px 60px, 150px 250px, 90px 70px;
+  }
+
+.glitch  {
+  text-shadow: 0.05em 0 0 rgba(181, 40, 216, 0.75),
+  -0.025em -0.05em 0 rgba(0, 255, 0, 0.75),
+  0.025em 0.05em 0 rgba(0, 0, 255, 0.75);
+
+animation: glitch 700ms infinite;
+}
+
+/* https://web.dev/prefers-reduced-motion/#(bonus)-forcing-reduced-motion-on-all-websites */
+
+@keyframes glitch {
+  0% {
+    text-shadow: 0.05em 0 0 rgba(181, 40, 216, 0.75),
+      -0.05em -0.025em 0 rgba(0, 255, 0, 0.75),
+      -0.025em 0.05em 0 rgba(0, 0, 255, 0.75);
+  }
+  14% {
+    text-shadow: 0.05em 0 0 rgba(181, 40, 216, 0.75),
+      -0.05em -0.025em 0 rgba(0, 255, 0, 0.75),
+      -0.025em 0.05em 0 rgba(0, 0, 255, 0.75);
+  }
+  15% {
+    text-shadow: -0.05em -0.025em 0 rgba(181, 40, 216, 0.75),
+      0.025em 0.025em 0 rgba(0, 255, 0, 0.75),
+      -0.05em -0.05em 0 rgba(0, 0, 255, 0.75);
+  }
+  49% {
+    text-shadow: -0.05em -0.025em 0 rgba(181, 40, 216, 0.75),
+      0.025em 0.025em 0 rgba(0, 255, 0, 0.75),
+      -0.05em -0.05em 0 rgba(0, 0, 255, 0.75);
+  }
+  50% {
+    text-shadow: 0.025em 0.05em 0 rgba(181, 40, 216, 0.75),
+      0.05em 0 0 rgba(0, 255, 0, 0.75), 0 -0.05em 0 rgba(0, 0, 255, 0.75);
+  }
+  99% {
+    text-shadow: 0.025em 0.05em 0 rgba(181, 40, 216, 0.75),
+      0.05em 0 0 rgba(0, 255, 0, 0.75), 0 -0.05em 0 rgba(0, 0, 255, 0.75);
+  }
+  100% {
+    text-shadow: -0.025em 0 0 rgba(181, 40, 216, 0.75),
+      -0.025em -0.025em 0 rgba(0, 255, 0, 0.75),
+      -0.025em -0.05em 0 rgba(0, 0, 255, 0.75);
+  }
+}
+
+/* if end user doesn't want motion, below rules will turn it off */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  ::before,
+  ::after {
+    animation-delay: -1ms !important;
+    animation-duration: 1ms !important;
+    animation-iteration-count: 1 !important;
+    background-attachment: initial !important;
+    scroll-behavior: auto !important;
+    transition-duration: 0s !important;
+    transition-delay: 0s !important;
+  }
+}
+
+.tv-container {
+  display: flex;
+  clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  margin: 0 auto;
+  margin-top: 8em;
+  height: auto;
+  width: 80%;
+}
+
+#text {
+  position: absolute;
+  display: grid;
+  place-content: center;
+  text-align: center;
+  color: black;
+  font-size: 1.5vw;
+  width: 180px;
+  height: 135px;
+  transform: scaleX(0.8) translate(-95px, 8px) skewY(8deg);
+}
+
+
+
+
+ .tv-pic img {
+    width: 400px;
+    height: 300px;
+    
+}
+
