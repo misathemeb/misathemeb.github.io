@@ -39,6 +39,7 @@ Project is:  _complete_ but always making small tweaks
 Room for improvement:
 
 * Refactor hard coded pixels to rems
+* add pages or jump scrolls to details and booking from buttons
 
 To do:
 
