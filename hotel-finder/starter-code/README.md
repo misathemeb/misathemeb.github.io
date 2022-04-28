@@ -1,70 +1,49 @@
-# Getting Started with Create React App
+# Hotel Finder v1.0
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app) & [Emotion](https://emotion.sh/docs/introduction)
 
-## Available Scripts
+> This project was a Codecademy Pro challenge on the front-end development career path to practice using CSS in JS to apply styles over a React app. 
 
-In the project directory, you can run:
+## Table of Contents
 
-### `npm start`
+* [General Info](#general-information)
+* [Technologies Used](#technologies-used)
+* [Screenshots](#screenshots)
+* [Project Status](#project-status)
+* [Room for Improvement](#room-for-improvement)
+* [Contact](#contact)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## General Information
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+* This project was a way to experiment with Emotion library to create styled components, add styles to them and use in a React app. A keyframes helper was used to add animation to the app's airplane logo. Themed (objects) can also be created to apply styles to styled components.
 
-### `npm test`
+## Technologies Used
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+* HTML5/CSS3
+* CSS3 & JSX
+* Emotion library
+* React
+* VS Code
 
-### `npm run build`
+## Screenshots
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+![mobile](https://user-images.githubusercontent.com/91221861/165834067-48969425-75bb-4f18-af7c-2252cfed8f7c.jpg)
+![desktop](https://user-images.githubusercontent.com/91221861/165833615-886bb6c7-271f-4fee-ae0b-eee3ec048a7b.png)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Project Status
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Project is:  _complete_ but always making small tweaks
 
-### `npm run eject`
+## Room for Improvement
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+Room for improvement:
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+* Refactor hard coded pixels to rems
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+To do:
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+* Create a backend using a lightweight node.js app like Express or Python3 with API
 
-## Learn More
+## Contact
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Created by [Melissa](https://twitter.com/misathemeb)  feel free to send a DM
